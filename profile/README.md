@@ -6,11 +6,14 @@ Version : 0.0.1, Date : 2022-11-27
 The main purpose of this organization is to create simple libraries and tool for making development easier.
 
 *Index*
-There are two three main kind of projects hosted by [fugerit-org] github account
+There are three main kind of projects hosted by [fugerit-org] github account
 1. Core libraries 
 2. Tools
 3. Documentation and quickstarts
 
+Most of them are maven projects, based on [fj-bom](https://github.com/fugerit-org/fj-bom) parent pom.  
+
+In time some projects have been depcreated, here is the [list](DEPRECATED.md).
 
 ## 1. Core libraries
 
