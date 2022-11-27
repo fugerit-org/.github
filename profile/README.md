@@ -13,7 +13,7 @@ There are three main kind of projects hosted by [fugerit-org] github account
 
 Most of them are maven projects, based on [fj-bom](https://github.com/fugerit-org/fj-bom) parent pom.  
 
-In time some projects have been depcreated, here is the [list](DEPRECATED.md).
+In time some projects have been depcreated, here is the [list](https://github.com/fugerit-org/.github/blob/main/profile/DEPRECATED.md).
 
 ## 1. Core libraries
 
