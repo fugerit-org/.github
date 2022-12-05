@@ -19,7 +19,7 @@ In time some projects have been depcreated, here is the [list](https://github.co
 
 There are thre main libraries, wchich are basically maven multi module projects : 
 
-**1.1 [Jupiter (fj-lib)](https://github.com/fugerit-org/fj-doc)**  
+**1.1 [Jupiter (fj-lib)](https://github.com/fugerit-org/fj-lib)**  
 This library contains a core libraries of functions covering many language primitives needed in project (configuration loading, IO, i18n ecc).  
 With the exception of dbcp2, this library only depends on java 8 sdk.
 
