@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 0.0.1, Date : 2022-11-27
+Version : 1.0.0, Date : 2023-06-26
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -13,11 +13,14 @@ There are three main kind of projects hosted by [fugerit-org] github account
 
 Most of them are maven projects, based on [fj-bom](https://github.com/fugerit-org/fj-bom) parent pom.  
 
-In time some projects have been depcreated, here is the [list](https://github.com/fugerit-org/.github/blob/main/profile/DEPRECATED.md).
+In time some projects have been depcreated, here is the [list](http://github-org.fugerit.org/profile/DEPRECATED.html).
 
 ## 1. Core libraries
 
-There are thre main libraries, wchich are basically maven multi module projects : 
+There are four main libraries, wchich are basically maven multi module projects : 
+  
+**1.0 [Bom (fj-bom)](https://github.com/fugerit-org/fj-bom)**
+The parent pom with common resources and behaviours for other projects
 
 **1.1 [Jupiter (fj-lib)](https://github.com/fugerit-org/fj-lib)**  
 This library contains a core libraries of functions covering many language primitives needed in project (configuration loading, IO, i18n ecc).  
@@ -31,7 +34,7 @@ NB: the submodules are divided as to optimize dependency injection when importin
 
 **1.3 [Mars (fj-daogen)](https://github.com/fugerit-org/fj-daogen)**
 At last this is basically a code generation library, allowing for the creations of beans representing Entities and various functions to apply on them.
-THe name daogen had been picked because simple persistance layer is provided, but it is possibile to add generator for different behaviours. 
+THe name daogen had been picked because simple persistence layer is provided, but it is possibile to add generator for different behaviours. 
 
 
 ## 2. Tools  
@@ -55,3 +58,11 @@ This project contains a quickstart for [Venus](https://github.com/fugerit-org/fj
 * Static document
 * Dynamic document (by use of freemarker)
 * Code injection in rest application (springboot, websphere liberty and quarkus samples are provided)  
+
+
+## 4. Credits
+
+I would like to thanks the many projects (especially the open source one) which contributed so much to all the projects in those repository are built.  
+All those projects are the building bricks which enable to create awesome software.  
+It is not possible to invent every time the wheel from scratch, so none of the projects hosted by this organization would have ever existed without these building bricks.  
+Here is a brief list of the main projects used by [Fugerit Coding Org Credits](http://github-org.fugerit.org/profile/credits.html)
