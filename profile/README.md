@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.2.1, Date : 2023-08-25
+Version : 1.2.2, Date : 2023-08-25
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -12,6 +12,8 @@ There are three main kind of projects hosted by [fugerit-org] github account
 3. Documentation and quickstarts
 
 Most of them are maven projects, based on [fj-bom](https://github.com/fugerit-org/fj-bom) parent pom.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-bom.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-bom)
+ [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-bom&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-bom)
 
 In time some projects have been depcreated, here is the [list](http://github-org.fugerit.org/profile/DEPRECATED.html).
 
