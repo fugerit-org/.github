@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.1.0, Date : 2023-08-24
+Version : 1.2.0, Date : 2023-08-25
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -24,18 +24,20 @@ The parent pom with common resources and behaviours for other projects
 
 **1.1 [Jupiter (fj-lib)](https://github.com/fugerit-org/fj-lib)**  
 This library contains a core libraries of functions covering many language primitives needed in project (configuration loading, IO, i18n ecc).  
-With the exception of dbcp2, this library only depends on java 8 sdk.
+With the exception of dbcp2, this library only depends on java 8 sdk.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-core.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-core)
 
 **1.2 [Venus (fj-doc)](https://github.com/fugerit-org/fj-doc)**  
 This module defines a custom document module with some basic structures (paragraphs, tables, list etc.).  
 In the core module there is the infrastructures for handling such documents.  
 Submodules adds output fornmats thorough the used of third party libraries (i.e. Apache FOP for PDF or Apache POI for XLSX).  
 NB: the submodules are divided as to optimize dependency injection when importing them.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-doc-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-doc-base)
 
 **1.3 [Mars (fj-daogen)](https://github.com/fugerit-org/fj-daogen)**
 At last this is basically a code generation library, allowing for the creations of beans representing Entities and various functions to apply on them.
-THe name daogen had been picked because simple persistence layer is provided, but it is possibile to add generator for different behaviours. 
-
+THe name daogen had been picked because simple persistence layer is provided, but it is possibile to add generator for different behaviours.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-daogen-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-daogen-base)
 
 ## 2. Tools  
 
