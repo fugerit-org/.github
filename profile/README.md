@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.0.0, Date : 2023-06-26
+Version : 1.1.0, Date : 2023-08-24
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -53,7 +53,12 @@ This simple tool parses a yaml document and produces an output using the [Venus]
 
 At last some repository are just documentation and samples to other projects. for instance :  
 
-**3.1 [Venus Quickstart](https://github.com/fugerit-org/fj-doc-quickstart)**  
+**3.1 [Venus Guides](https://github.com/fugerit-org/fj-doc-guides)**  
+This project contains a quickstart for [Venus](https://github.com/fugerit-org/fj-doc) library. 
+There is some documentation at [https://venusguides.fugerit.org/](https://venusguides.fugerit.org/)
+and some specific purpose guide, like the classi [Hello World](https://github.com/fugerit-org/fj-doc-guides/tree/main/fj-doc-guides-A001-hello-world-pdf),
+
+**3.2 [Venus Quickstart](https://github.com/fugerit-org/fj-doc-quickstart)**  
 This project contains a quickstart for [Venus](https://github.com/fugerit-org/fj-doc) library. Many examples are provided including :  
 * Static document
 * Dynamic document (by use of freemarker)
@@ -66,3 +71,9 @@ I would like to thanks the many projects (especially the open source one) which 
 All those projects are the building bricks which enable to create awesome software.  
 It is not possible to invent every time the wheel from scratch, so none of the projects hosted by this organization would have ever existed without these building bricks.  
 Here is a brief list of the main projects used by [Fugerit Coding Org Credits](http://github-org.fugerit.org/profile/credits.html)
+
+## 5. Quality gate
+
+See cxurrent [Sonar Cloud Quality Gate status](https://sonarcloud.io/organizations/fugerit-org/projects)
+
+##
