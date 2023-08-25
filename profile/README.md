@@ -60,7 +60,7 @@ At last some repository are just documentation and samples to other projects. fo
 **3.1 [Venus Guides](https://github.com/fugerit-org/fj-doc-guides)**  
 This project contains a quickstart for [Venus](https://github.com/fugerit-org/fj-doc) library. 
 There is some documentation at [https://venusguides.fugerit.org/](https://venusguides.fugerit.org/)
-and some specific purpose guide, like the classi [Hello World](https://github.com/fugerit-org/fj-doc-guides/tree/main/fj-doc-guides-A001-hello-world-pdf),
+and some specific purpose guide, like the classic [Hello World](https://github.com/fugerit-org/fj-doc-guides/tree/main/fj-doc-guides-A001-hello-world-pdf),
 
 **3.2 [Venus Quickstart](https://github.com/fugerit-org/fj-doc-quickstart)**  
 This project contains a quickstart for [Venus](https://github.com/fugerit-org/fj-doc) library. Many examples are provided including :  
