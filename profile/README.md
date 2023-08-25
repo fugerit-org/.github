@@ -12,8 +12,6 @@ There are three main kind of projects hosted by [fugerit-org] github account
 3. Documentation and quickstarts
 
 Most of them are maven projects, based on [fj-bom](https://github.com/fugerit-org/fj-bom) parent pom.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-bom.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-bom)
- [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-bom&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-bom)
 
 In time some projects have been depcreated, here is the [list](http://github-org.fugerit.org/profile/DEPRECATED.html).
 
@@ -22,7 +20,9 @@ In time some projects have been depcreated, here is the [list](http://github-org
 There are four main libraries, wchich are basically maven multi module projects : 
   
 **1.0 [Bom (fj-bom)](https://github.com/fugerit-org/fj-bom)**
-The parent pom with common resources and behaviours for other projects
+The parent pom with common resources and behaviours for other projects.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-bom.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-bom)
+ [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-bom&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-bom)
 
 **1.1 [Jupiter (fj-lib)](https://github.com/fugerit-org/fj-lib)**  
 This library contains a core libraries of functions covering many language primitives needed in project (configuration loading, IO, i18n ecc).  
