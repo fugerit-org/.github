@@ -78,6 +78,4 @@ Here is a brief list of the main projects used by [Fugerit Coding Org Credits](h
 
 ## 5. Quality gate
 
-See cxurrent [Sonar Cloud Quality Gate status](https://sonarcloud.io/organizations/fugerit-org/projects)
-
-##
+See current [Sonar Cloud Quality Gate status](https://sonarcloud.io/organizations/fugerit-org/projects)
