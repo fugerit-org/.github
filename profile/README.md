@@ -50,8 +50,8 @@ This is our versions of freemarker maven plugin. Originally a fork of the origin
 [![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/freemarker-maven-plugin.svg)](https://mvnrepository.com/artifact/org.fugerit.java/freemarker-maven-plugin) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_freemarker-maven-plugin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_freemarker-maven-plugin)
 
 **2.2 [Yaml Doc Tool](https://github.com/fugerit-org/yaml-doc-tool)**
-This simple tool parses a yaml document and produces an output using the [Venus](https://github.com/fugerit-org/fj-doc) library. In the current version has been tested on yaml representing Openapi specification. A [maven plugin](https://github.com/fugerit-org/yaml-doc-maven-plugin) is also provided.
-
+This simple tool parses a yaml document and produces an output using the [Venus](https://github.com/fugerit-org/fj-doc) library. In the current version has been tested on yaml representing Openapi specification. A [maven plugin](https://github.com/fugerit-org/yaml-doc-maven-plugin) is also provided.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/yaml-doc-tool.svg)](https://mvnrepository.com/artifact/org.fugerit.java/yaml-doc-tool) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_yaml-doc-tool&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_yaml-doc-tool)
 
 ## 3. Documentation and quickstarts  
 
