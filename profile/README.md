@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.2.3, Date : 2023-08-29
+Version : 1.2.4, Date : 2023-08-30
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -22,24 +22,31 @@ There are four main libraries, wchich are basically maven multi module projects 
 **1.0 [Bom (fj-bom)](https://github.com/fugerit-org/fj-bom)**
 The parent pom with common resources and behaviours for other projects.  
 [![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-bom.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-bom)
- [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-bom&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-bom)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-bom&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-bom)
 
 **1.1 [Jupiter (fj-lib)](https://github.com/fugerit-org/fj-lib)**  
 This library contains a core libraries of functions covering many language primitives needed in project (configuration loading, IO, i18n ecc).  
 With the exception of dbcp2, this library only depends on java 8 sdk.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-core.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-core) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-lib&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-lib)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-core.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-core)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-lib&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-lib)
 
 **1.2 [Venus (fj-doc)](https://github.com/fugerit-org/fj-doc)**  
 This module defines a custom document module with some basic structures (paragraphs, tables, list etc.).  
 In the core module there is the infrastructures for handling such documents.  
 Submodules adds output fornmats thorough the used of third party libraries (i.e. Apache FOP for PDF or Apache POI for XLSX).  
 NB: the submodules are divided as to optimize dependency injection when importing them.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-doc-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-doc-base) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-doc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-doc)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-doc-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-doc-base)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-doc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-doc)
 
 **1.3 [Mars (fj-daogen)](https://github.com/fugerit-org/fj-daogen)**
 At last this is basically a code generation library, allowing for the creations of beans representing Entities and various functions to apply on them.
 THe name daogen had been picked because simple persistence layer is provided, but it is possibile to add generator for different behaviours.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-daogen-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-daogen-base) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-daogen&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-daogen)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-daogen-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-daogen-base)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-daogen&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-daogen)
 
 ## 2. Tools  
 
@@ -47,11 +54,15 @@ There are some specific tools for handling a few specific tasks :
 
 **2.1 [Freemarker Maven Plugin](https://github.com/fugerit-org/freemarker-maven-plugin)**
 This is our versions of freemarker maven plugin. Originally a fork of the original [repository](https://github.com/yahoo/freemarker-maven-plugin) hosted by [yahoo](https://github.com/yahoo) account. This plugin simply allow to handle freemarker templates during the maven build process.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/freemarker-maven-plugin.svg)](https://mvnrepository.com/artifact/org.fugerit.java/freemarker-maven-plugin) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_freemarker-maven-plugin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_freemarker-maven-plugin)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/freemarker-maven-plugin.svg)](https://mvnrepository.com/artifact/org.fugerit.java/freemarker-maven-plugin)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_freemarker-maven-plugin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_freemarker-maven-plugin)
 
 **2.2 [Yaml Doc Tool](https://github.com/fugerit-org/yaml-doc-tool)**
 This simple tool parses a yaml document and produces an output using the [Venus](https://github.com/fugerit-org/fj-doc) library. In the current version has been tested on yaml representing Openapi specification. A [maven plugin](https://github.com/fugerit-org/yaml-doc-maven-plugin) is also provided.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/yaml-doc-tool.svg)](https://mvnrepository.com/artifact/org.fugerit.java/yaml-doc-tool) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_yaml-doc-tool&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_yaml-doc-tool)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/yaml-doc-tool.svg)](https://mvnrepository.com/artifact/org.fugerit.java/yaml-doc-tool)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_yaml-doc-tool&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_yaml-doc-tool)
 
 ## 3. Documentation and quickstarts  
 
