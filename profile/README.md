@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.2.5, Date : 2023-09-13
+Version : 1.3.0, Date : 2023-09-17
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -44,12 +44,16 @@ NB: the submodules are divided as to optimize dependency injection when importin
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-doc&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-doc) 
 
 **1.3 [Mars (fj-daogen)](https://github.com/fugerit-org/fj-daogen)**
-At last this is basically a code generation library, allowing for the creations of beans representing Entities and various functions to apply on them.
+A code generation library, allowing for the creations of beans representing Entities and various functions to apply on them.
 THe name daogen had been picked because simple persistence layer is provided, but it is possibile to add generator for different behaviours.  
 [![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-daogen-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-daogen-base)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-daogen&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-daogen)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-daogen&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-daogen) 
+
+**1.4 [Universe (fj-universe)](https://github.com/fugerit-org/fj-universe)**
+A fugerit org universe bom project, still incubating, to handle of the dependencies at once![![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java.universe/fj-universe.svg)](https://mvnrepository.com/artifact/org.fugerit.java.universe/fj-universe)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## 2. Tools  
 
