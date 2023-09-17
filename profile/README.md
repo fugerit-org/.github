@@ -52,7 +52,8 @@ THe name daogen had been picked because simple persistence layer is provided, bu
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-daogen&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-daogen) 
 
 **1.4 [Universe (fj-universe)](https://github.com/fugerit-org/fj-universe)**
-A fugerit org universe bom project, still incubating, to handle of the dependencies at once![![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java.universe/fj-universe.svg)](https://mvnrepository.com/artifact/org.fugerit.java.universe/fj-universe)
+A fugerit org universe bom project, still incubating, to handle of the dependencies at once!  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java.universe/fj-universe.svg)](https://mvnrepository.com/artifact/org.fugerit.java.universe/fj-universe)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## 2. Tools  
