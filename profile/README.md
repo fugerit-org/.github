@@ -1,9 +1,12 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.3.0, Date : 2023-09-17
+Version : 1.4.0, Date : 2023-09-24
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
+
+[![Keep a Changelog v1.1.0 badge](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.1.0-%23E05735)](https://github.com/fugerit-org/.github/blob/main/profile/CHANGELOG.md) 
+[![code of conduct](https://img.shields.io/badge/conduct-Contributor%20Covenant-purple.svg)](https://github.com/fugerit-org/fj-universe/blob/main/CODE_OF_CONDUCT.md)
 
 *Index*
 There are three main kind of projects hosted by [fugerit-org] github account
@@ -71,6 +74,18 @@ This simple tool parses a yaml document and produces an output using the [Venus]
 [![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/yaml-doc-tool.svg)](https://mvnrepository.com/artifact/org.fugerit.java/yaml-doc-tool)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_yaml-doc-tool&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_yaml-doc-tool)
+
+**2.3 [Query Export Tool](https://github.com/fugerit-org/query-export-tool)**  
+Simple tool ti export query in CSV, HTML, XLS and XLSX formats.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/query-export-tool.svg)](https://mvnrepository.com/artifact/org.fugerit.java/query-export-tool)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_query-export-tool&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_query-export-tool)
+
+**2.4 [Githib Issue Export](https://github.com/fugerit-org/github-issue-export)**  
+Tool to export the list of issue in a github repository using the github api.  
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/github-issue-export.svg)](https://mvnrepository.com/artifact/org.fugerit.java/github-issue-export)
+[![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_github-issue-export&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_github-issue-export)
 
 ## 3. Documentation and quickstarts  
 
