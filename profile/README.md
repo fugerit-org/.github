@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.4.0, Date : 2023-09-24
+Version : 1.4.1, Date : 2023-09-26
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -113,3 +113,8 @@ Here is a brief list of the main projects used by [Fugerit Coding Org Credits](h
 ## 5. Quality gate
 
 See current [Sonar Cloud Quality Gate status](https://sonarcloud.io/organizations/fugerit-org/projects)
+
+## 6. Other resources
+
+* [release repository](https://repo1.maven.org/maven2/org/fugerit/java/)
+* [snapshot repository](https://oss.sonatype.org/content/repositories/snapshots/org/fugerit/java/)
