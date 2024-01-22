@@ -1,1 +1,7 @@
-
+{
+    "name": "Build Maven Compatibility Check",
+    "description": "Check maven build compaibility matrix",
+    "categories": [
+        "Continuous integration", "Java"
+    ]
+}
