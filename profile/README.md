@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.4.1, Date : 2023-09-26
+Version : 1.4.2, Date : 2024-02-10
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -63,11 +63,11 @@ A fugerit org universe bom project, still incubating, to handle of the dependenc
 
 There are some specific tools for handling a few specific tasks : 
 
-**2.1 [Freemarker Maven Plugin](https://github.com/fugerit-org/freemarker-maven-plugin)**
-This is our versions of freemarker maven plugin. Originally a fork of the original [repository](https://github.com/yahoo/freemarker-maven-plugin) hosted by [yahoo](https://github.com/yahoo) account. This plugin simply allow to handle freemarker templates during the maven build process.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/freemarker-maven-plugin.svg)](https://mvnrepository.com/artifact/org.fugerit.java/freemarker-maven-plugin)
+**2.1 [Native Helper GraalVM](https://github.com/fugerit-org/native-helper-graalvm)**
+Helper tool to generate GraalVM native image metadata.
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/native-helper-graalvm.svg)](https://mvnrepository.com/artifact/org.fugerit.java/native-helper-graalvm)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_freemarker-maven-plugin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_freemarker-maven-plugin)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_native-helper-graalvm&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_native-helper-graalvm)
 
 **2.2 [Yaml Doc Tool](https://github.com/fugerit-org/yaml-doc-tool)**
 This simple tool parses a yaml document and produces an output using the [Venus](https://github.com/fugerit-org/fj-doc) library. In the current version has been tested on yaml representing Openapi specification. A [maven plugin](https://github.com/fugerit-org/yaml-doc-maven-plugin) is also provided.  
@@ -118,3 +118,16 @@ See current [Sonar Cloud Quality Gate status](https://sonarcloud.io/organization
 
 * [release repository](https://repo1.maven.org/maven2/org/fugerit/java/)
 * [snapshot repository](https://oss.sonatype.org/content/repositories/snapshots/org/fugerit/java/)
+
+## Special thanks
+
+**Special thanks** to [JetBrains](https://www.jetbrains.com/) 
+for accepting this project in the 
+[Licenses for Open Source Development - Community Support](https://jb.gg/OpenSourceSupport) program.
+
+[![JetBrains](https://universe.fugerit.org/src/docs/thanks/jetbrains.png)](https://universe.fugerit.org/src/docs/thanks/jetbrains.html)
+
+**Special thanks** to [Sonar Cloud](https://sonarcloud.io/), 
+[Codacy](https://www.codacy.com/) and 
+[Snyk](https://snyk.io/) 
+too for their code review platforms.
