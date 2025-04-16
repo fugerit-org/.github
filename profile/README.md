@@ -1,6 +1,6 @@
 # [Fugerit Coding Org](https://www.fugerit.org) - A development collection project
 
-Version : 1.4.2, Date : 2024-02-10
+Version : 1.4.3, Date : 2025-04-16
 
 *Introduction*  
 The main purpose of this organization is to create simple libraries and tool for making development easier.
@@ -24,14 +24,14 @@ There are four main libraries, wchich are basically maven multi module projects 
   
 **1.0 [Bom (fj-bom)](https://github.com/fugerit-org/fj-bom)**
 The parent pom with common resources and behaviours for other projects.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-bom.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-bom)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-bom.svg)](https://central.sonatype.com/artifact/org.fugerit.java/fj-bom)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-bom&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-bom)
 
 **1.1 [Jupiter (fj-lib)](https://github.com/fugerit-org/fj-lib)**  
 This library contains a core libraries of functions covering many language primitives needed in project (configuration loading, IO, i18n ecc).  
 With the exception of dbcp2, this library only depends on java 8 sdk.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-core.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-core)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-core.svg)](https://central.sonatype.com/artifact/org.fugerit.java/fj-core)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-lib&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-lib)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-lib&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-lib) 
@@ -41,7 +41,7 @@ This module defines a custom document module with some basic structures (paragra
 In the core module there is the infrastructures for handling such documents.  
 Submodules adds output fornmats thorough the used of third party libraries (i.e. Apache FOP for PDF or Apache POI for XLSX).  
 NB: the submodules are divided as to optimize dependency injection when importing them.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-doc-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-doc-base)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-doc-base.svg)](https://central.sonatype.com/artifact/org.fugerit.java/fj-doc-base)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-doc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-doc)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-doc&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-doc) 
@@ -49,14 +49,14 @@ NB: the submodules are divided as to optimize dependency injection when importin
 **1.3 [Mars (fj-daogen)](https://github.com/fugerit-org/fj-daogen)**
 A code generation library, allowing for the creations of beans representing Entities and various functions to apply on them.
 THe name daogen had been picked because simple persistence layer is provided, but it is possibile to add generator for different behaviours.  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-daogen-base.svg)](https://mvnrepository.com/artifact/org.fugerit.java/fj-daogen-base)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java/fj-daogen-base.svg)](https://central.sonatype.com/artifact/org.fugerit.java/fj-daogen-base)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-daogen&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-daogen)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fugerit-org_fj-daogen&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fugerit-org_fj-daogen) 
 
 **1.4 [Universe (fj-universe)](https://github.com/fugerit-org/fj-universe)**
 A fugerit org universe bom project, still incubating, to handle of the dependencies at once!  
-[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java.universe/fj-universe.svg)](https://mvnrepository.com/artifact/org.fugerit.java.universe/fj-universe)
+[![Maven Central](https://img.shields.io/maven-central/v/org.fugerit.java.universe/fj-universe.svg)](https://central.sonatype.com/artifact/org.fugerit.java.universe/fj-universe)
 [![license](https://img.shields.io/badge/License-Apache%20License%202.0-teal.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## 2. Tools  
